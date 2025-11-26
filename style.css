@@ -1,0 +1,26 @@
+body {
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 900px;
+}
+
+#botao {
+  border-radius: 10px;
+  padding: 12px 24px;
+  background-color: white;
+  color: black;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.3s ease; /* suaviza a animação */
+}
+
+#botao:hover {
+  background-color: #a358e0; /* cor quando passa o mouse */
+  color: black; /* pode mudar a cor do texto também */
+}
